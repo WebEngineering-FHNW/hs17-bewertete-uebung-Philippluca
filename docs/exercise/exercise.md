@@ -2,10 +2,23 @@
 
 ## Commit Proposal
 
-Matriculation Number: <to be filled by student>
+Matriculation Number: 16-665-226
 
-Project idea short description: 
+My idea is to make a simple "About me" page where I am able to display some information about myself. 
+Sites included by the Idea:
+  - This is me. (Basic overview) Mostly static Page with non static(DB/Config) Contact formular & Address
+  - My passion (A Page about my hobby as a glider pilot) Static 
+  - My Work (Page abot what I do for a living)
 
+On the My work page I would like to have a generated CV or Timeline. The Data should be stored other than HTML inside a SQL-DB or other persistance. 
+I want to have fields vor ervery occupation like
+  - From and To
+  - Name of the Company
+  - Company logo (If possible even dynamicly loaded)
+  - Company homepage
+  - List of work I did there
+  
+I would like to use https://html5up.net/solid-state and adapt it to my purpose and make it more flexible for this.
 
 ## Project confirmation
 
