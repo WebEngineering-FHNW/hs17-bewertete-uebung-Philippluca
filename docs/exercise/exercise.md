@@ -11,7 +11,7 @@ Sites included by the Idea:
   - My Work (Page abot what I do for a living)
 
 On the My work page I would like to have a generated CV or Timeline. The Data should be stored other than HTML inside a SQL-DB or other persistance. 
-I want to have fields vor ervery occupation like
+I want to have fields vor every occupation like
   - From and To
   - Name of the Company
   - Company logo (If possible even dynamicly loaded)
@@ -22,7 +22,11 @@ I would like to use https://html5up.net/solid-state and adapt it to my purpose a
 
 ## Project confirmation
 
-< to be filled by lecturer>
+confirmed.
+
+Cool idea.
+For the DB-persisted information: how is that entered/maintained? Over the web or through some external application?
+You project deserves a cool project name. "my-space" ?
 
 
 ## Project delivery <to be filled by student>
