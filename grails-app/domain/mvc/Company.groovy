@@ -11,7 +11,6 @@ class Company {
 
     static constraints = {
         name(nullable: false, blank: false)
-        url(url:true,)
 
     }
 }
