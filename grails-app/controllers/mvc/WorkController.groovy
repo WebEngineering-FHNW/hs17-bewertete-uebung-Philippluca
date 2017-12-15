@@ -2,5 +2,8 @@ package mvc
 
 class WorkController {
 
-    def index() { }
+    def index() {
+        List<Employment> employments = Employment.all
+
+    }
 }
