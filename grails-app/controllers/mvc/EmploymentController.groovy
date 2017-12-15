@@ -1,6 +1,5 @@
 package mvc
 
 class EmploymentController {
-
-    def index() { }
+    static  scaffold = Employment
 }
