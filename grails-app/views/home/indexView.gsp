@@ -20,7 +20,7 @@
 <!-- Two -->
 <section id="two" class="wrapper alt spotlight style2">
     <div class="inner">
-        <a href="#" class="image"><asset:image src="developingSquare.jpg"/> </a>
+        <a href="#" class="image"><asset:image src="developingSquare.jpg" alt="Developer"/> </a>
         <div class="content">
             <h2 class="major">My work</h2>
             <p>I am a software Developer who loves what he does. I started programming with Java and C#. I was interested in computers and how I get them to do what I want since Elementary. Nevertheless I am not a typical nerd: I work and I live. Don't code all the time. If you want to find out more about my career, click the link below.</p>
@@ -32,7 +32,7 @@
 <!-- Three -->
 <section id="three" class="wrapper spotlight style3">
     <div class="inner">
-        <a href="#" class="image"><asset:image src="AarauAltstadtSquare.jpg"/> </a>
+        <a href="#" class="image"><asset:image src="AarauAltstadtSquare.jpg" alt="Aarau Altstadt"/> </a>
         <div class="content">
             <h2 class="major">My home</h2>
             <p>Aarau is the capital of the northern Swiss canton of Aargau. The city is also the capital of the district of Aarau. It is situated on the Swiss plateau, in the valley of the Aare, on the river's right bank, and at the southern foot of the Jura mountains.</p>
@@ -40,6 +40,5 @@
             <a href="#" class="special">Learn more and visit</a>
         </div>
     </div>
-</section>
 </section>
 </body>
