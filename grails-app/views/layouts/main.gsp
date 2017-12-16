@@ -80,7 +80,7 @@
             </form>
             <ul class="contact">
                 <li class="fa-home">
-                    Untitled Inc<br />
+                g   Untitled Inc<br />
                     1234 Somewhere Road Suite #2894<br />
                     Nashville, TN 00000-0000
                 </li>
@@ -102,6 +102,7 @@
 <asset:javascript src="skel.min.js"/>
 <asset:javascript src="jquery.min.js"/>
 <asset:javascript src="jquery.scrollex.min.js"/>
+<asset:javascript src="util.js"/>
 <!--[if lte IE 8]><asset:javascript src="ie/respond.min.js"/><![endif]-->
 <asset:javascript src="main.js"/>
 
