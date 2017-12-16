@@ -5,6 +5,8 @@
 </head>
 
 <body>
+<g:render template="/components/menu"/>
+
 <section id="banner">
     <div class="inner">
         <div class="logo"><span class="icon fa-code-fork"></span></div>
@@ -21,7 +23,7 @@
     <section id="one" class="wrapper spotlight style6">
         <div class="timeline">
             <g:each status="i" in="${employments}" var="employment">
-                <div class="container ${(i % 2) == 0 ? 'left' : 'right'}">
+                <div class="container ${(i % 2) == 1 ? 'left' : 'right'}">
                     <div class="content">
                         <h2>${employment.begin.getYear()} - ${employment.end ? employment.end.getYear() : 'Today'}: ${employment.company.name}</h2>
 

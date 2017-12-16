@@ -32,4 +32,5 @@
         </div>
     </section>
 </section>
+<g:render template="/components/copyrightFooter"/>
 </body>
