@@ -15,7 +15,7 @@ class Employment {
     static constraints = {
         position(nullable: false, blank: false)
         contactPerson(nullable: true)
-        begin(nullable: false, max: new Date()) // TODO min: KONFIGURATION_BIRTHDATE
-        end(nullable: true, max: new Date())    // TODO max: min: this.begin
+        begin(nullable: false, max: new Date().clearTime()) // TODO min: KONFIGURATION_BIRTHDATE
+        end(nullable: true, max: new Date().clearTime())    // TODO max: min: this.begin
     }
 }

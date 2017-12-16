@@ -20,34 +20,7 @@
 
 <!-- Page Wrapper -->
 <div id="page-wrapper">
-
-    <!-- Header -->
-    <header id="header" class="alt">
-        <h1><g:link controller="home" action="index">This is me!</g:link></h1>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
-
-    <g:render template="/components/menu"/>
-
-
-    <!-- Banner -->
-    <section id="banner">
-        <div class="inner">
-            <div class="logo"><span class="icon fa-diamond"></span></div>
-            <h2>This is Solid State</h2>
-            <p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-        </div>
-    </section>
-
-    <!-- Wrapper -->
-    <section id="wrapper">
-        <g:layoutBody/>
-    </section>
-
-    <g:render template="/components/contactFooter"/>
-
+    <g:layoutBody/>
 </div>
 
 <!-- Scripts -->

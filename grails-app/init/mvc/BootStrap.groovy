@@ -9,10 +9,14 @@ class BootStrap {
             return
         }
 
+        Date today = new Date().clearTime();
 
         Person dierk = save(new Person(firstName: "Dierk", lastName: "König", email:"dierk.koenig@fhnw.ch"))
+        Company inges = save(new Company(name: "INGTES AG", url: "http://ingtes.ch/"))
 
-        Date today = new Date().clearTime();
+        Employment ingtes = save(new Employment(position: "Developer", begin: today, company: inges))
+
+
 
     }
 
