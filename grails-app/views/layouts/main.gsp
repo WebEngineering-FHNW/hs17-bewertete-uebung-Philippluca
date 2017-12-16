@@ -14,6 +14,8 @@
     <!--[if lte IE 9]><asset:stylesheet src="ie9.css"/><![endif]-->
     <!--[if lte IE 8]><asset:stylesheet src="ie8.css"/><![endif]-->
     <asset:stylesheet src="font-awesome.min.css"/>
+    <asset:link rel="close.svg" href="close.svg" />
+
     <g:layoutHead/>
 </head>
 <body>
