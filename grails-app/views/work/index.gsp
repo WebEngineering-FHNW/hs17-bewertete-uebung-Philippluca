@@ -3,26 +3,19 @@
 
 <head>
     <meta name="layout" content="main"/>
+    <asset:stylesheet src="timeline.css"/>
     <title>Philipp Luethi</title>
 </head>
 <body>
-    <g:each in="${employments}">
-        <g:link controller="work" action="details" id="${it.company.id}">${it.company.name}</g:link>
-    </g:each>
-
-<div class="timeline">
-    <div class="container left">
-        <div class="content">
-            <h2>2017</h2>
-            <p>Lorem ipsum..</p>
-        </div>
+    <div class="timeline">
+        <g:each status="i" in="${employments}" var="employment">
+            <div class="container ${(i % 2) == 0 ? 'left' : 'right'}">
+                <div class="content">
+                    <h2>${employment.begin.getYear()} - ${employment.end? employment.end.getYear(): 'Today'}: ${employment.company.name}</h2>
+                    <p>${employment.shortDesciption}</p>
+                </div>
+            </div>
+        </g:each>
     </div>
-    <div class="container right">
-        <div class="content">
-            <h2>2016</h2>
-            <p>Lorem ipsum..</p>
-        </div>
-    </div>
-</div>
 </body>
 

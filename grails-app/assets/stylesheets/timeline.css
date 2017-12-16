@@ -2,12 +2,6 @@
    Modified by Philipp lüthi
  */
 
-/* Set a background color */
-body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -20,7 +14,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #3f4e85;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -41,9 +35,9 @@ body {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    right: -13px;
+    background-color: #4c5c96;
+    border: 2px solid white;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -68,9 +62,9 @@ body {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid #4c5c96;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #4c5c96;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -82,9 +76,9 @@ body {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid #4c5c96;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #4c5c96 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -93,9 +87,9 @@ body {
 }
 
 /* The actual content */
-.content {
+.container .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #4c5c96;
     position: relative;
     border-radius: 6px;
 }
