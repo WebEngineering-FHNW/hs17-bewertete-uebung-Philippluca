@@ -1,19 +1,11 @@
 <head>
     <meta name="layout" content="main"/>
-    <title>Philipp Luethi</title>
+    <title>Philipp Lüthi</title>
 </head>
 
 <body>
-<!-- Header -->
-<header id="header" class="alt">
-    <h1><g:link controller="home" action="index">This is me!</g:link></h1>
-    <nav>
-        <a href="#menu">Menu</a>
-    </nav>
-</header>
 
 <g:render template="/components/menu"/>
-
 
 <!-- Banner -->
 <section id="banner">
