@@ -60,7 +60,7 @@
                 <p>Aarau is the capital of the northern Swiss canton of Aargau. The city is also the capital of the district of Aarau. It is situated on the Swiss plateau, in the valley of the Aare, on the river's right bank, and at the southern foot of the Jura mountains.</p>
 
                 <p>It are the simple and small things that make Aarau what it is for me. The people, the culture and all the localities make my hometown to what it is. A cozy place in Switzerland.</p>
-                <a href="#" class="special">Learn more and visit</a>
+                <a href="https://www.heartbeat-aarau.ch/" class="special">Learn more and visit</a>
             </div>
         </div>
     </section>
