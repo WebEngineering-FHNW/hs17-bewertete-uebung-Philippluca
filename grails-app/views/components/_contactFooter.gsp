@@ -2,7 +2,7 @@
 <section id="footer">
     <div class="inner">
         <h2 class="major">Get in touch</h2>
-        <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+        <p>Please feel free to contact me at any time by filling the contact form below or following me on one of my social channels.</p>
         <form method="post" action="#">
             <div class="field">
                 <label for="name">Name</label>
@@ -22,15 +22,14 @@
         </form>
         <ul class="contact">
             <li class="fa-home">
-                g   Untitled Inc<br />
-                1234 Somewhere Road Suite #2894<br />
-                Nashville, TN 00000-0000
+                Philipp Lüthi<br />
+                Hardstrasse 19<br />
+                5032 Aarau Rohr
             </li>
-            <li class="fa-phone">(000) 000-0000</li>
-            <li class="fa-envelope"><a href="#">information@untitled.tld</a></li>
-            <li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-            <li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
-            <li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+            <li class="fa-phone">079 482 95 81</li>
+            <li class="fa-envelope"><a href="mailto:philpp@luethi.rocks">philipp@luethi.rocks</a></li>
+            <li class="fa-twitter"><a href="https://twitter.com/pluethi1">twitter.com/pluethi1</a></li>
+            <li class="fa-facebook"><a href="https://www.facebook.com/pluethi1">facebook.com/pluethi1</a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; Philipp Lüthi. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
