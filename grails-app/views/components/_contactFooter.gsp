@@ -3,7 +3,7 @@
     <div class="inner">
         <h2 class="major">Get in touch</h2>
         <p>Please feel free to contact me at any time by filling the contact form below or following me on one of my social channels.</p>
-        <form method="post" action="#">
+        <g:form method="post" controller="contact" action="postForm">
             <div class="field">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" />
@@ -19,7 +19,7 @@
             <ul class="actions">
                 <li><input type="submit" value="Send Message" /></li>
             </ul>
-        </form>
+        </g:form>
         <ul class="contact">
             <li class="fa-home">
                 Philipp Lüthi<br />

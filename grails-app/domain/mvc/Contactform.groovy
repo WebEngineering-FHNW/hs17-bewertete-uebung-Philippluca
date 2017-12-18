@@ -7,8 +7,8 @@ class Contactform {
     String message
 
     static constraints = {
-        name(nullable: false, max: 60)
-        email(nullable: false, max: 70,email: true)
-        message(nullable: false, blank: false, max: 1200)
+        name(nullable: false, maxSize: 60)
+        email(nullable: false, maxSize: 70,email: true)
+        message(nullable: false, blank: false, maxSize: 1200)
     }
 }
