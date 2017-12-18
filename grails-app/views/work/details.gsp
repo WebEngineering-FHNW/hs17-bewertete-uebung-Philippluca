@@ -11,7 +11,7 @@
     <!-- One -->
     <section class="wrapper">
         <div class="inner">
-            <h1>Company: ${employment.getCompany().name}</h1>
+            <h2>${employment.getCompany().name}</h2>
             <table>
                 <thead>
                 <tr>
@@ -27,7 +27,7 @@
                     <td>${employment.position}</td>
                 </tr>
             </table>
-            <h2>Description</h2>
+            <h3>Description</h3>
             <p></p>
             <ul class="actions">
                 <li><g:link class="button special" controller="work" action="index">Overview</g:link> </li>
