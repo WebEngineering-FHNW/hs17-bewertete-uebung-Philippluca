@@ -25,8 +25,9 @@
             <g:each status="i" in="${employments}" var="employment">
                 <div class="container ${(i % 2) == 1 ? 'left' : 'right'}">
                     <div class="content">
-                        <h2>${employment.begin.format("MMM YYYY")} - ${employment.end ? employment.end.format("MMM YYYY") : 'Today'}: ${employment.company.name}</h2>
-
+                        <h2><g:link controller="work" action="details" id="${employment.id}">
+                            ${employment.begin.format("MMM YYYY")} - ${employment.end ? employment.end.format("MMM YYYY") : 'Today'}: ${employment.company.name}</h2>
+                        </g:link>
                         <p>${employment.shortDesciption}</p>
                     </div>
                 </div>
