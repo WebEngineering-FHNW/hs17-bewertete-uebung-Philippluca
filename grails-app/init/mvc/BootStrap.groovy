@@ -9,7 +9,7 @@ class BootStrap {
             return
         }
 
-        Date today = new Date().clearTime();
+        Date today = new Date().clearTime()
 
         Person dierk = save(new Person(firstName: "Dierk", lastName: "König", email:"dierk.koenig@fhnw.ch"))
 
