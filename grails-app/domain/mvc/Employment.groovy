@@ -22,4 +22,8 @@ class Employment {
         begin(nullable: false, max: new Date().clearTime()) // TODO min: KONFIGURATION_BIRTHDATE
         end(nullable: true, max: new Date().clearTime())    // TODO max: min: this.begin
     }
+
+    static mapping = {
+        sort begin: "desc"
+    }
 }

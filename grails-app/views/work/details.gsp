@@ -28,7 +28,7 @@
                 </tr>
             </table>
             <h3>Description</h3>
-            <p></p>
+            <p>${employment.fullDescription}</p>
             <ul class="actions">
                 <li><g:link class="button special" controller="work" action="index">Overview</g:link> </li>
             </ul>
