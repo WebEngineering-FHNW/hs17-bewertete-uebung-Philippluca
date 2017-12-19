@@ -1,5 +1,9 @@
 package mvc
 
+/**
+ * DTO for the contact form. If edited the
+ * contact form component may also reqire change
+ */
 class Contactform {
 
     String name

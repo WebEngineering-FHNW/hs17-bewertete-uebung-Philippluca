@@ -23,6 +23,10 @@ class Employment {
         end(nullable: true, max: new Date().clearTime())    // TODO max: min: this.begin
     }
 
+    /**
+     * Adds sorting. Newest employments will be show on top of
+     * the time stream.
+     */
     static mapping = {
         sort begin: "desc"
     }

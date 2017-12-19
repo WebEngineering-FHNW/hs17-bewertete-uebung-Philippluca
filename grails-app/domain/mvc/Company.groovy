@@ -2,6 +2,10 @@ package mvc
 
 import java.time.Year
 
+/**
+ * Company's the host of the website has worked for.
+ * The Company name is nesseccary.
+ */
 class Company {
     String name
     String url

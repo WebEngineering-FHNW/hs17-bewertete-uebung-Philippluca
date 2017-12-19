@@ -1,5 +1,10 @@
 package mvc
 
+/**
+ * Public site "Work"
+ * Shows a timetable of all Employments in correct order.
+ * Employment full Description can be seen on details view.
+ */
 class WorkController {
 
     def index() {
