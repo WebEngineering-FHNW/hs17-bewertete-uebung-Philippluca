@@ -36,12 +36,21 @@ How to start the project: (if other than `grailsw run-app`)
 How to test the project:  (if other than `grailsw test-app`)
 
 Project description:      (if other than `/index.html`)
-
+ - docs/exercise/description.html
 External contributions:
-
+ - Not external contributors to project but I used work from https://html5up.net/
+ 
 Other comments: 
-
-I'm particular proud of:
+ - The Product absolutly shows who's project it is. I still hope this has no impact on the final grade ;)
+ 
+I'm particular proud of: (in order of decreasing importance)
+- Low duplication of html. I used self defined UI components. UI component integrate well with used css.
+- Alternating timeline ("/work/index")
+- Own styling of Timeline ("/work/index")
+- Detailed information about each work item
+- Mobile friendly
+- Removal of unused dependencies
+- Addition of my own dependencies of html5up
 
 
 ## Project grading 

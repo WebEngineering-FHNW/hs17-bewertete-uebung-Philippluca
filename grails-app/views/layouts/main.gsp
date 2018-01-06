@@ -1,51 +1,36 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>
-        <g:layoutTitle default="Grails"/>
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <asset:stylesheet src="application.css"/>
-
+    <title><g:layoutTitle default="About Me Page"/></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><asset:javascript src="ie/html5shiv.js"/><![endif]-->
+    <asset:stylesheet src="main.css"/>
+    <!--[if lte IE 9]><asset:stylesheet src="ie9.css"/><![endif]-->
+    <!--[if lte IE 8]><asset:stylesheet src="ie8.css"/><![endif]-->
+    <asset:stylesheet src="font-awesome.min.css"/>
+    <asset:stylesheet src="timeline.css"/>
     <g:layoutHead/>
 </head>
 <body>
 
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/#">
-                    <i class="fa grails-icon">
-                        <asset:image src="grails-cupsonly-logo-white.svg"/>
-                    </i> Grails
-                </a>
-            </div>
-            <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
-                <ul class="nav navbar-nav navbar-right">
-                    <g:pageProperty name="page.nav" />
-                </ul>
-            </div>
-        </div>
-    </div>
-
+<!-- Page Wrapper -->
+<div id="page-wrapper">
     <g:layoutBody/>
+</div>
 
-    <div class="footer" role="contentinfo"></div>
-
-    <div id="spinner" class="spinner" style="display:none;">
-        <g:message code="spinner.alt" default="Loading&hellip;"/>
-    </div>
-
-    <asset:javascript src="application.js"/>
+<!-- Scripts -->
+<asset:javascript src="skel.min.js"/>
+<asset:javascript src="jquery.min.js"/>
+<asset:javascript src="jquery.scrollex.min.js"/>
+<asset:javascript src="util.js"/>
+<!--[if lte IE 8]><asset:javascript src="ie/respond.min.js"/><![endif]-->
+<asset:javascript src="main.js"/>
 
 </body>
 </html>

@@ -1,10 +1,9 @@
 package mvc
-
 /**
  * Administrative Controller
  * TODO: Make unaccessable to nonauthorized clients
  */
-class PersonController {
+class CompanyController {
 
-    static scaffold = Person
+    static scaffold = Company
 }
