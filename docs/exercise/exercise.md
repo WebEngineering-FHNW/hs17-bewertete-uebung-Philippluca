@@ -55,4 +55,25 @@ I'm particular proud of: (in order of decreasing importance)
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description: given and fully valid html.
+The application works (link to facebook seems to be broken, some resource-links are broken, eg.
+close.svg, bg.jpg).
+
+Functionality is mostly navigation, contact page (with fake interactivity), 
+responsive design (adapted from web resources), dynamic content from DB for Employment data.
+DB data is set up via bootstrap. Small domain with very nice, responsive list view with 
+navigation into show view.
+
+Engineering:
+Very good git log. No tests. Mostly valid html (some unclosed anchor tags).
+Very good use of Web MVC and view creation with templates.
+
+I award two points for the artistic value since the visual appearance is really convincing.
+Two more points go are awareded for the particular effort that is visible in the
+git log, for view construction with templates, and for finding and including web resources
+to your advantage.
+
+You could have easily scored a "very good" by providing some tests.
+
+Total grade: 5.4
+
